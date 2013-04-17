@@ -14,13 +14,5 @@ It's fearture:
 
 4.It will listen the touch event on the tags.
 
-
-![iPhone](TagsCloudView/iPhone1.png)
-
-![iPad](TagsCloudView/ipad1.png)
-
-
-[id]: TagsCloudView/iPhone1.png  "Optional title attribute"
-
-
-[id]: TagsCloudView/ipad1.png  "Optional title attribute"
+![iPhone1](https://github.com/xiekw2010/KXTagsCloudView/blob/master/TagsCloudView/TagsCloudView/iPhone1.png)
+![ipad](https://github.com/xiekw2010/KXTagsCloudView/blob/master/TagsCloudView/TagsCloudView/ipad1.png)
