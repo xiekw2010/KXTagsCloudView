@@ -1,0 +1,313 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		418732EF171E887600725B4E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418732EE171E887600725B4E /* UIKit.framework */; };
+		418732F1171E887600725B4E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418732F0171E887600725B4E /* Foundation.framework */; };
+		418732F3171E887600725B4E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 418732F2171E887600725B4E /* CoreGraphics.framework */; };
+		418732F9171E887600725B4E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 418732F7171E887600725B4E /* InfoPlist.strings */; };
+		418732FB171E887600725B4E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 418732FA171E887600725B4E /* main.m */; };
+		418732FF171E887600725B4E /* KXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 418732FE171E887600725B4E /* KXAppDelegate.m */; };
+		41873301171E887600725B4E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 41873300171E887600725B4E /* Default.png */; };
+		41873303171E887600725B4E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41873302171E887600725B4E /* Default@2x.png */; };
+		41873305171E887600725B4E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41873304171E887600725B4E /* Default-568h@2x.png */; };
+		4187330E171E88E900725B4E /* KXTagsCloudView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4187330D171E88E900725B4E /* KXTagsCloudView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		41B875D7171E8A71004BB090 /* KXMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B875D6171E8A71004BB090 /* KXMainViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		418732EB171E887600725B4E /* TagsCloudView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TagsCloudView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		418732EE171E887600725B4E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		418732F0171E887600725B4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		418732F2171E887600725B4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		418732F6171E887600725B4E /* TagsCloudView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TagsCloudView-Info.plist"; sourceTree = "<group>"; };
+		418732F8171E887600725B4E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		418732FA171E887600725B4E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		418732FC171E887600725B4E /* TagsCloudView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TagsCloudView-Prefix.pch"; sourceTree = "<group>"; };
+		418732FD171E887600725B4E /* KXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KXAppDelegate.h; sourceTree = "<group>"; };
+		418732FE171E887600725B4E /* KXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KXAppDelegate.m; sourceTree = "<group>"; };
+		41873300171E887600725B4E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		41873302171E887600725B4E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		41873304171E887600725B4E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4187330C171E88E900725B4E /* KXTagsCloudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXTagsCloudView.h; sourceTree = "<group>"; };
+		4187330D171E88E900725B4E /* KXTagsCloudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXTagsCloudView.m; sourceTree = "<group>"; };
+		41B875D5171E8A71004BB090 /* KXMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KXMainViewController.h; sourceTree = "<group>"; };
+		41B875D6171E8A71004BB090 /* KXMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KXMainViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		418732E8171E887600725B4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418732EF171E887600725B4E /* UIKit.framework in Frameworks */,
+				418732F1171E887600725B4E /* Foundation.framework in Frameworks */,
+				418732F3171E887600725B4E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		418732E2171E887600725B4E = {
+			isa = PBXGroup;
+			children = (
+				4187330B171E88C100725B4E /* TagsView */,
+				418732F4171E887600725B4E /* TagsCloudView */,
+				418732ED171E887600725B4E /* Frameworks */,
+				418732EC171E887600725B4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		418732EC171E887600725B4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				418732EB171E887600725B4E /* TagsCloudView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		418732ED171E887600725B4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				418732EE171E887600725B4E /* UIKit.framework */,
+				418732F0171E887600725B4E /* Foundation.framework */,
+				418732F2171E887600725B4E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		418732F4171E887600725B4E /* TagsCloudView */ = {
+			isa = PBXGroup;
+			children = (
+				41B875D5171E8A71004BB090 /* KXMainViewController.h */,
+				41B875D6171E8A71004BB090 /* KXMainViewController.m */,
+				418732FD171E887600725B4E /* KXAppDelegate.h */,
+				418732FE171E887600725B4E /* KXAppDelegate.m */,
+				418732F5171E887600725B4E /* Supporting Files */,
+			);
+			path = TagsCloudView;
+			sourceTree = "<group>";
+		};
+		418732F5171E887600725B4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				418732F6171E887600725B4E /* TagsCloudView-Info.plist */,
+				418732F7171E887600725B4E /* InfoPlist.strings */,
+				418732FA171E887600725B4E /* main.m */,
+				418732FC171E887600725B4E /* TagsCloudView-Prefix.pch */,
+				41873300171E887600725B4E /* Default.png */,
+				41873302171E887600725B4E /* Default@2x.png */,
+				41873304171E887600725B4E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4187330B171E88C100725B4E /* TagsView */ = {
+			isa = PBXGroup;
+			children = (
+				4187330C171E88E900725B4E /* KXTagsCloudView.h */,
+				4187330D171E88E900725B4E /* KXTagsCloudView.m */,
+			);
+			path = TagsView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		418732EA171E887600725B4E /* TagsCloudView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41873308171E887600725B4E /* Build configuration list for PBXNativeTarget "TagsCloudView" */;
+			buildPhases = (
+				418732E7171E887600725B4E /* Sources */,
+				418732E8171E887600725B4E /* Frameworks */,
+				418732E9171E887600725B4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TagsCloudView;
+			productName = TagsCloudView;
+			productReference = 418732EB171E887600725B4E /* TagsCloudView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		418732E3171E887600725B4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KX;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Kaiwei.Xie;
+			};
+			buildConfigurationList = 418732E6171E887600725B4E /* Build configuration list for PBXProject "TagsCloudView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 418732E2171E887600725B4E;
+			productRefGroup = 418732EC171E887600725B4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				418732EA171E887600725B4E /* TagsCloudView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		418732E9171E887600725B4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418732F9171E887600725B4E /* InfoPlist.strings in Resources */,
+				41873301171E887600725B4E /* Default.png in Resources */,
+				41873303171E887600725B4E /* Default@2x.png in Resources */,
+				41873305171E887600725B4E /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		418732E7171E887600725B4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				418732FB171E887600725B4E /* main.m in Sources */,
+				418732FF171E887600725B4E /* KXAppDelegate.m in Sources */,
+				4187330E171E88E900725B4E /* KXTagsCloudView.m in Sources */,
+				41B875D7171E8A71004BB090 /* KXMainViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		418732F7171E887600725B4E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				418732F8171E887600725B4E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41873306171E887600725B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41873307171E887600725B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41873309171E887600725B4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TagsCloudView/TagsCloudView-Prefix.pch";
+				INFOPLIST_FILE = "TagsCloudView/TagsCloudView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4187330A171E887600725B4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TagsCloudView/TagsCloudView-Prefix.pch";
+				INFOPLIST_FILE = "TagsCloudView/TagsCloudView-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		418732E6171E887600725B4E /* Build configuration list for PBXProject "TagsCloudView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41873306171E887600725B4E /* Debug */,
+				41873307171E887600725B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41873308171E887600725B4E /* Build configuration list for PBXNativeTarget "TagsCloudView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41873309171E887600725B4E /* Debug */,
+				4187330A171E887600725B4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 418732E3171E887600725B4E /* Project object */;
+}
