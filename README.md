@@ -15,4 +15,6 @@ It's fearture:
 4.It will listen the touch event on the tags.
 
 ![iPhone1](https://github.com/xiekw2010/KXTagsCloudView/blob/master/TagsCloudView/TagsCloudView/iPhone1.png)
+
+
 ![ipad](https://github.com/xiekw2010/KXTagsCloudView/blob/master/TagsCloudView/TagsCloudView/ipad1.png)
